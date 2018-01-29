@@ -2,4 +2,110 @@
 
 /* VISUAL */
 
-.visual{width:100%; height:700px; background: url(../images/banner_01.png) no-repeat;}
+.visual{width:100%; height:700px; background: url(../images/visual_01.png) no-repeat;}
+
+.visual>.center{height:100%; position:relative;}
+
+.visual p{position:absolute; font-family:"나눔손글씨 붓","NanumBrush",sans-serif; line-height:65px; font-size:60px; color:#fff; font-weight:bold;}
+
+.visual p:first-child{top:20%; left:2%;}
+
+.visual p:last-child{top:5%; right:5%;}
+
+.visual p>.blue{color:#034ea2;}
+
+.visual p>.red{color:#ed1c24; font-size:50px; padding-left:7%;}
+
+.visual p>.black{color:#000; font-size:40px;}
+
+/*-----------------------------------------------------------------------------*/
+
+/* BANNER */
+.banners{position:absolute; top:680px; left:18%;}
+
+.banners>div{float:left;}
+
+.banners p{font-weight:bold;}
+
+.banLeft>.upper{margin:0px 20px 20px 30px; background:url(../images/ban_01.png) no-repeat;}
+
+.banMid>.upper{margin:0px 20px 20px 0px; background:url(../images/ban_02.png) no-repeat;}
+
+.banRight>.upper{margin:0px 30px 20px 0px; background:url(../images/ban_03.png) no-repeat;}
+
+.banLeft>.lower{margin:0px 20px 0px 30px; background:url(../images/ban_04.png) no-repeat;}
+
+.banMid>.lower{margin-right:20px; background:url(../images/ban_05.png) no-repeat;}
+
+.banRight>.lower{margin-right:30px; background:url(../images/ban_06.png) no-repeat;}
+
+.banLeft>.upper>a>p{color:#fff;}
+
+.banLeft>.upper>a>p:first-child{padding:70px 130px 0px 138px; font-size:35px; line-height: 45px;}
+
+.banLeft>.upper>a>p:nth-child(2){padding:30px 0px 0px 81px; font-size:23px;}
+
+.banLeft>.upper>a>p:nth-child(3){padding:16px 0px 46px 50px;}
+
+.banMid>.upper>a>p:first-child{padding:48px 11px 0px 11px; font-size:23px;}
+
+.banMid>.upper>a>p:last-child{padding:20px 0px 84px 11px;}
+
+.banMid>.upper>a>p>span{color:#3c8945;}
+
+.banRight>.upper>a>p{text-align: center;}
+
+.banRight>.upper>a>p:first-child{padding:97px 67px 0px 72px; line-height: 25px;}
+
+.banRight>.upper>a>p:last-child{padding-bottom:83px; color:#034ea2; font-size:23px; line-height:35px;}
+
+.banRight>.upper>a>p>span{color:#ed1c24;}
+
+.banLeft>.lower>a>p{padding:55px 192px 45px 56px; font-size:35px; line-height:50px;}
+
+.banLeft>.lower>a>p>span{color:#ff6804;}
+
+.banMid>.lower>a>p{padding:39px 22px 36px 84px; font-size:23px; line-height:45px; text-align:right;}
+
+.banMid>.lower>a>p>span{color:#9a188f;}
+
+.banRight>.lower>a>p:first-child{padding:41px 162px 0px 27px; font-size:23px; line-height: 30px; color:#ed1c24;}
+
+.banRight>.lower>a>p:last-child{padding:10px 62px 29px 27px; line-height: 30px;}
+
+.banRight>.lower>a>p>span{color:#034ea2;}
+
+/*-----------------------------------------------------------------------------*/
+
+/* SERVICE */
+.service{margin-top:350px;}
+
+.service>.title{font-size:23px; text-align:center;}
+
+.service>ul{float:left; width:100%; margin-top:30px;}
+
+.service>ul>li{float:left; width:12.5%;}
+
+.service>ul>li:hover p{color:#034ea2;}
+
+.service>ul>li div{height:95px; background:url(../images/ico_service.png) no-repeat;}
+
+.service>ul>li p{padding-top:10%; text-align: center; font-weight:bold;}
+
+.service>ul>li:first-child div{background-position:30px 0px;}
+
+.service>ul>li:nth-child(2) div{background-position:-125px 0px;}
+
+.service>ul>li:nth-child(3) div{background-position:-280px 0px;}
+
+.service>ul>li:nth-child(4) div{background-position:-440px 0px;}
+
+.service>ul>li:nth-child(5) div{background-position:-590px 0px;}
+
+.service>ul>li:nth-child(6) div{background-position:-750px 0px;}
+
+.service>ul>li:nth-child(7) div{background-position:-905px 0px;}
+
+.service>ul>li:last-child div{background-position:-1065px 0px;}
+
+/*-----------------------------------------------------------------------------*/
