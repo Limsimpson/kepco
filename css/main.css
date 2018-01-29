@@ -2,7 +2,7 @@
 
 /* VISUAL */
 
-.visual{width:100%; height:700px; background: url(../images/visual_01.png) no-repeat;}
+.visual{width:100%; height:700px; background: url(../images/visual_01.png) no-repeat center top; background-size: cover;}
 
 .visual>.center{height:100%; position:relative;}
 
@@ -14,14 +14,14 @@
 
 .visual p>.blue{color:#034ea2;}
 
-.visual p>.red{color:#ed1c24; font-size:50px; padding-left:7%;}
+.visual p>.red{color:#ed1c24; font-size:50px; padding-left:5%;}
 
 .visual p>.black{color:#000; font-size:40px;}
 
 /*-----------------------------------------------------------------------------*/
 
 /* BANNER */
-.banners{position:absolute; top:680px; left:18%;}
+.banners{position:absolute; top:680px; left:50%; margin-left:-600px;}
 
 .banners>div{float:left;}
 
