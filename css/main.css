@@ -21,11 +21,11 @@
 /*-----------------------------------------------------------------------------*/
 
 /* BANNER */
-.banners{position:absolute; top:680px; left:50%; margin-left:-600px;}
+.conBanners{position:absolute; top:680px; left:50%; margin-left:-600px;}
 
-.banners>div{float:left;}
+.conBanners>div{float:left;}
 
-.banners p{font-weight:bold;}
+.conBanners p{font-weight:bold;}
 
 .banLeft>.upper{margin:0px 20px 20px 30px; background:url(../images/ban_01.png) no-repeat;}
 
@@ -78,34 +78,34 @@
 /*-----------------------------------------------------------------------------*/
 
 /* SERVICE */
-.service{margin-top:350px;}
+.conService{margin-top:350px; margin-bottom:50px;}
 
-.service>.title{font-size:23px; text-align:center;}
+.conService>.title{font-size:23px; text-align:center;}
 
-.service>ul{float:left; width:100%; margin-top:30px;}
+.conService>ul{float:left; width:100%; margin-top:30px;}
 
-.service>ul>li{float:left; width:12.5%;}
+.conService>ul>li{float:left; width:12.5%;}
 
-.service>ul>li:hover p{color:#034ea2;}
+.conService>ul>li:hover p{color:#034ea2;}
 
-.service>ul>li div{height:95px; background:url(../images/ico_service.png) no-repeat;}
+.conService>ul>li div{height:95px; background:url(../images/ico_service.png) no-repeat;}
 
-.service>ul>li p{padding-top:10%; text-align: center; font-weight:bold;}
+.conService>ul>li p{padding-top:10%; text-align: center; font-weight:bold;}
 
-.service>ul>li:first-child div{background-position:30px 0px;}
+.conService>ul>li:first-child div{background-position:30px 0px;}
 
-.service>ul>li:nth-child(2) div{background-position:-125px 0px;}
+.conService>ul>li:nth-child(2) div{background-position:-125px 0px;}
 
-.service>ul>li:nth-child(3) div{background-position:-280px 0px;}
+.conService>ul>li:nth-child(3) div{background-position:-280px 0px;}
 
-.service>ul>li:nth-child(4) div{background-position:-440px 0px;}
+.conService>ul>li:nth-child(4) div{background-position:-440px 0px;}
 
-.service>ul>li:nth-child(5) div{background-position:-590px 0px;}
+.conService>ul>li:nth-child(5) div{background-position:-590px 0px;}
 
-.service>ul>li:nth-child(6) div{background-position:-750px 0px;}
+.conService>ul>li:nth-child(6) div{background-position:-750px 0px;}
 
-.service>ul>li:nth-child(7) div{background-position:-905px 0px;}
+.conService>ul>li:nth-child(7) div{background-position:-905px 0px;}
 
-.service>ul>li:last-child div{background-position:-1065px 0px;}
+.conService>ul>li:last-child div{background-position:-1065px 0px;}
 
 /*-----------------------------------------------------------------------------*/
