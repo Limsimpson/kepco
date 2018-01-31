@@ -213,26 +213,44 @@
     <!-- SERVICE END -->
 
     <!-- CONTAINER -->
+
+    <!-- 게시판 -->
     <div class="conInfo center">
         <div class="board">
-            <div class="title">
+            <div class="title clearfix">
                 <ul>
                     <li class="notice"><a href="#">공지사항</a></li>
                     <li class="press"><a href="#">보도자료</a></li>
-                    <li><a href="#"></a></li>
+                    <li class="more"><a href="#">더보기</a></li>
                 </ul>
             </div>
-            <div class="body">
+
+            <!-- 공지사항 -->
+            <div class="noticeBody">
                 <ul>
-                    <li><a href="#">내용</a><span>날짜</span></li>
-                    <li><a href="#">내용</a><span>날짜</span></li>
-                    <li><a href="#">내용</a><span>날짜</span></li>
-                    <li><a href="#">내용</a><span>날짜</span></li>
-                    <li><a href="#">내용</a><span>날짜</span></li>
-                    <li><a href="#">내용</a><span>날짜</span></li>
+                    <li><a href="#">&#91;154kV 서천안-탕정 기설송전선로 권원확보사업&#93; 보상계획 공고</a><span>2018&#46;01&#46;29</span></li>
+                    <li><a href="#">2018년 노사합동 글로벌 봉사활동</a><span>2018&#46;01&#46;29</span></li>
+                    <li><a href="#">2018년 Eye Love 천사 Project</a><span>2018&#46;01&#46;29</span></li>
+                    <li><a href="#">공시송달공고&#40;154kV 증평&#45;초정 기설송전선로 권원확보사업&#41; 안내</a><span>2018&#46;01&#46;24</span></li>
+                    <li><a href="#">2018년도 제1차 사외공모 위탁연구개발과제 수행기관 공모</a><span>2018&#46;01&#46;23</span></li>
+                    <li><a href="#">공시송달공고&#40;154kV 건천&#45;천북 기설송전선로 권원확보사업&#41; 안내</a><span>2018&#46;01&#46;23</span></li>
+                </ul>
+            </div>
+
+            <!-- 보도자료 -->
+            <div class="pressBody">
+                <ul>
+                    <li><a href="#">한전공대&#40;가칭&#41; 설립 글로벌 컨설팅 용역 추진</a><span>2018&#46;01&#46;03</span></li>
+                    <li><a href="#">한전&#44; 6군단 상생협력 MOU 체결</a><span>2017&#46;12&#46;27</span></li>
+                    <li><a href="#">한전&#44; &#91;ISO 55001 자산경영시스템&#93; 인증 취득</a><span>2017&#46;12&#46;27</span></li>
+                    <li><a href="#">한전&#44; 평창 동계올림픽 성공적 개최 적극 지원</a><span>2017&#46;12&#46;22</span></li>
+                    <li><a href="#">한전&#44; 에너지인재 육성 신&#40;新&#41;바람에너지스쿨 성황리 마쳐</a><span>2017&#46;12&#46;21</span></li>
+                    <li><a href="#">한전&#44; 제대군인 대상 배전 시공인력 양성 교육시행</a><span>2017&#46;12&#46;20</span></li>
                 </ul>
             </div>
         </div>
+
+        <!-- 전력수급현황 -->
         <div class="status">
             <div class="title">
                 <h3>전력수급현황</h3>
@@ -242,6 +260,7 @@
                 <p>1446</p>
                 <p>0</p>
                 <p>1000</p>
+                <p class="refresh">새로고침</p>
                 <ul>
                     <li>공급능력<span>9&#44;961만kW</span></li>
                     <li>현재부하<span>8&#44;514만kW</span></li>
@@ -250,34 +269,84 @@
                 </ul>
             </div>
         </div>
-        <div class="readme">
-            <div class="title">꼭 읽어보세요&#33;</div>
-            <div class="body">
-                <div class="bullet">
-                    <input type="radio" id="ban1" name="banner" checked>
-                    <input type="radio" id="ban2" name="banner">
-                    <input type="radio" id="ban3" name="banner">
-                    <input type="radio" id="ban4" name="banner">
-                    <input type="radio" id="ban5" name="banner">
 
-                    <label for="ban1" class="btn rBtn1">1</label>
-                    <label for="ban2" class="btn rBtn2">2</label>
-                    <label for="ban3" class="btn rBtn3">3</label>
-                    <label for="ban4" class="btn rBtn4">4</label>
-                    <label for="ban4" class="btn rBtn4">5</label>
-                </div>
+        <!-- 꼭 읽어보세요 -->
+        <div class="readme">
+            <div class="title">
+                <h3>꼭 읽어보세요&#33;</h3>
+            </div>
+            <div class="rollingBan">
                 <ul>
-                    <li><a href="#"><img src="" alt=""></a></li>
-                    <li><a href="#"><img src="" alt=""></a></li>
-                    <li><a href="#"><img src="" alt=""></a></li>
-                    <li><a href="#"><img src="" alt=""></a></li>
-                    <li><a href="#"><img src="" alt=""></a></li>
+                    <li><a href="#"><img src="images/slideban_01.jpg" alt="공공기관 채용비리를 신고해주세요"></a></li>
+                    <li><a href="#"><img src="images/slideban_02.jpg" alt="예산낭비 신고하세요"></a></li>
+                    <li><a href="#"><img src="images/slideban_03.jpg" alt="부패,비리,익명신고"></a></li>
+                    <li><a href="#"><img src="images/slideban_04.jpg" alt="청렴도측정결과 바로가기"></a></li>
+                    <li><a href="#"><img src="images/slideban_01.jpg" alt="공공기관 채용비리"></a></li>
+                </ul>
+                <ul class="bullet">
+                    <li>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                    </li>
                 </ul>
             </div>
         </div>
 
+        <!-- 미니 배너 -->
+        <div class="miniBan">
+            <ul>
+                <li><a href="#"><img src="images/miniban_01.jpg" alt="정부24"></a></li>
+                <li><a href="#"><img src="images/miniban_02.jpg" alt="기획재정부"></a></li>
+                <li><a href="#"><img src="images/miniban_03.jpg" alt="에너지전환정보센터"></a></li>
+                <li><a href="#"><img src="images/miniban_04.jpg" alt="안전신문고"></a></li>
+                <li><a href="#"><img src="images/miniban_05.jpg" alt="평창동계올림픽"></a></li>
+                <li><a href="#"><img src="images/miniban_06.jpg" alt="송주법 주변지역 지원사업"></a></li>
+            </ul>
+        </div>
     </div>
     <!-- CONTAINER END -->
+
+    <!-- FOOTER -->
+
+    <div class="foot">
+        <div class="center">
+            <h2 class="footLogo"><img src="images/footlogo.png" alt="footlogo"></h2>
+
+            <!-- FOOT MENU -->
+            <div class="footText">
+                <ul class="footmenu">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">영상정보처리기기운영관리방침</a></li>
+                    <li><a href="#">개인정보침해신고</a></li>
+                    <li><a href="#">신용정보활용제재공시</a></li>
+                    <li><a href="#">이메일주소무단수집금지</a></li>
+                    <li><a href="#">홈페이지 개선의견</a></li>
+                </ul>
+                <p>24시간 전기상담고객센터&#40;전기상담,고장신고&#41; 국번없이 <span>123</span> &#40;휴대폰 &#58; 지역번호 &#43; 123&#41; ARS안내 &#58; 발신자 부담</p>
+                <small>본 사이트는 포트폴리오 용도로 제작된 가상 사이트입니다. 모든 콘텐츠의 저작권은 한국전력 및 해당사에 있음을 밝힙니다. designed by 임정임</small>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="#">페이스북</a></li>
+                    <li><a href="#">트위터</a></li>
+                    <li><a href="#">인스타그램</a></li>
+                    <li><a href="#">블로그</a></li>
+                    <li><a href="#">카카오스토리</a></li>
+                    <li><a href="#">RSS</a></li>
+                </ul>
+            </div>
+            <div class="footImg">
+                <ul>
+                    <li><a href="#">미래창조과학부</a></li>
+                    <li><a href="#">QR코드</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
 </body>
 
 </html>
