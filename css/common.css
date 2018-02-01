@@ -135,3 +135,23 @@ a:hover{text-decoration: none;}
 /* HEAD BOTTOM END -----------------------*/
 
 /*-----------------------------------------------------------------------------*/
+
+/* FOOTER */
+.foot{background:url(../images/bg_foot.png) no-repeat center top; background-size: cover; position:relative; height:400px;}
+
+.footLogo{margin-top:100px; margin-left:0.83%; float:left;}
+
+.footText{margin-top:100px; float:right;}
+
+.footmenu{margin-top:4px;}
+
+.footmenu>li{float:left;}
+
+.footmenu>li>a, .footText>p{font-size:15px; font-weight:bold; text-align:right;}
+
+.footText>p{margin-top:19px;}
+
+.footText>p>span{color:#ed1c24; font-size:23px;}
+
+small{font-weight:bold; top:275px;}
+small,.social,.footImg{position:absolute;}

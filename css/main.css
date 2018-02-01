@@ -80,7 +80,7 @@
 /* CONTAINER SERVICE */
 .conService{margin-top:350px; margin-bottom:50px;}
 
-.conService>.title{font-size:23px; text-align:center;}
+.conService>.title{font-size:20px; text-align:center;}
 
 .conService>ul{float:left; width:100%; margin-top:30px;}
 
@@ -111,8 +111,120 @@
 /*-----------------------------------------------------------------------------*/
 
 /* CONTAINER INFORMATION */
+.conInfo>div{float:left;}
+
+/* 공지사항, 보도자료 */
+
+.board{width:40%; margin-left:0.83%; margin-right:1.66%;}
+
 .board>.title>ul>li{float:left; border:1px solid #000; border-bottom:none;}
 
 .board>.title>ul>li:nth-child(2),.board>.title>ul>li:last-child{border-left:none;}
 
-.board>.title>ul>li>a{display:block; padding:21px 36px 17px 38px;}
+.board>.title>ul>li>a{display:block; padding:21px 36px 17px 38px; font-weight:bold; font-size:20px;}
+
+.boardBox{border:1px solid #000;}
+
+.boardBox li{margin-top:25px;}
+
+.boardBox li:last-child{margin-bottom:22px;}
+
+.boardBox li>a{float:left; display:block; width:60%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding-left:5%; padding-right:9%; font-weight:bold;}
+
+.pressBody{display:none;}
+
+/* 전력수급현황, 꼭 읽어보세요 공통사항 */
+
+.status,.readme{width:27.5%;}
+
+.status>.title>h3,.readme>.title>h3{font-size:20px; font-weight:bold; padding:17.5px 0;}
+
+.statusBody,.rollingBan{border:1px solid #000; height:300px;}
+
+/* 전력수급현황 */
+
+.status{margin-right:1.66%;}
+
+.statusBody{position:relative;}
+
+.statusBody>p{font-weight:bold;}
+
+.statusBody>p:first-child{width:100%; text-align: center; margin-top:19px;}
+
+.statusBody>p:nth-child(2){width:100%; text-align: center; margin-top:72px;}
+
+.statusBody>p:nth-child(3){display:inline; margin-left:96px;}
+
+.statusBody>p:nth-child(4){display:inline; margin-left:105px;}
+
+.refresh{position:absolute; top:15px; right:20px; text-indent: -9999px; width:38px;
+height:32px; background:url(../images/ico_refresh.png) no-repeat;}
+
+.statusBody>ul{margin-top:31px; margin-left:60px;}
+
+.statusBody span{width:50%; font-weight:bold;}
+
+.statusBody span:first-child{padding-right:56px;}
+
+.statusBody li:last-child>span:first-child{padding-right:73px;}
+
+/* 꼭 읽어보세요 */
+.rollingBan{overflow:hidden;}
+
+.rbanImg{width:1650px;}
+
+.rbanImg li{width:330px; float:left;}
+
+.rbanImg li a{height:300px;}
+
+.rbanImg li p{font-weight:bold;}
+
+.rbanImg li:first-child{background:url(../images/slideban_01.jpg);}
+
+.rbanImg li:first-child>a{display:block; text-indent:-9999px;}
+
+.rbanImg li:nth-child(2){background:url(../images/slideban_02.jpg);}
+
+.rbanImg li:nth-child(2) p{color:white;}
+
+.rbanImg li:nth-child(2) p:first-child{font-size:23px; padding-left:96px; padding-top:63px;}
+
+.rbanImg li:nth-child(2) p:last-child{text-align:right; padding-top:40px; padding-right:15px; line-height:35px;}
+
+.rbanImg li:nth-child(2) p>span{color:#ff6804;}
+
+.rbanImg li:nth-child(3){background:url(../images/slideban_03.jpg);}
+
+.rbanImg li:nth-child(3) p{padding-left:45px;}
+
+.rbanImg li:nth-child(3) p:first-child{font-size:23px; padding-top:58px;}
+
+.rbanImg li:nth-child(3) p:last-child{padding-top:30px; line-height:32px;}
+
+.rbanImg li:nth-child(3) p>span{color:#ed1c24;}
+
+.rbanImg li:nth-child(4){background:url(../images/slideban_04.jpg);}
+
+.rbanImg li:nth-child(4) p{padding-left:40px;}
+
+.rbanImg li:nth-child(4) p:first-child{padding-top:70px;}
+
+.rbanImg li:nth-child(4) p:last-child{padding-top:19px; font-size:35px; line-height:50px;}
+
+.rbanImg li:last-child{background:url(../images/slideban_02.jpg);}
+
+/*-----------------------------------------------------------------------------*/
+
+/* 미니 배너 */
+
+.miniBan{margin-left:0.83%; margin-top:50px;}
+
+.miniBan ul{width:100%;}
+
+.miniBan li{float:left; border:1px solid #000; margin-right:1.6%}
+
+.miniBan li:nth-child(5), .miniBan li:last-child{border:none;}
+
+.miniBan li:last-child{margin-right:0;}
+
+/*-----------------------------------------------------------------------------*/
