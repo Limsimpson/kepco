@@ -88,7 +88,9 @@
 
 .conService>ul>li:hover p{color:#034ea2;}
 
-.conService>ul>li div{height:95px; background:url(../images/ico_service.png) no-repeat;}
+.conService>ul>li div{height:95px; background:url(../images/ico_service.png) no-repeat; transition: all 0.2s ease-in-out;}
+
+.conService>ul>li:hover div{ transform: scale(1.1);}
 
 .conService>ul>li p{padding-top:10%; text-align: center; font-weight:bold;}
 
@@ -119,15 +121,19 @@
 
 .board>.title>ul>li{float:left; border:1px solid #000; border-bottom:none;}
 
-.board>.title>ul>li:nth-child(2),.board>.title>ul>li:last-child{border-left:none;}
+.board>.title .selected>a{background-color:#034ea2; color:#fff;}
+
+.board>.title .press,.board>.title .more{border-left:none;}
 
 .board>.title>ul>li>a{display:block; padding:21px 36px 17px 38px; font-weight:bold; font-size:20px;}
 
-.boardBox{border:1px solid #000;}
+.board>.title .more>a{padding:16px 15px 15px 15px;}
 
 .boardBox li{margin-top:25px;}
 
 .boardBox li:last-child{margin-bottom:22px;}
+
+.boardBox li:hover>a{color:#034ea2; text-decoration:underline;}
 
 .boardBox li>a{float:left; display:block; width:60%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding-left:5%; padding-right:9%; font-weight:bold;}
 
@@ -139,7 +145,7 @@
 
 .status>.title>h3,.readme>.title>h3{font-size:20px; font-weight:bold; padding:17.5px 0;}
 
-.statusBody,.rollingBan{border:1px solid #000; height:300px;}
+.boardBox,.statusBody,.rollingBan{border:1px solid #000; height:298px;}
 
 /* 전력수급현황 */
 
@@ -149,18 +155,19 @@
 
 .statusBody>p{font-weight:bold;}
 
-.statusBody>p:first-child{width:100%; text-align: center; margin-top:19px;}
+.statusBody>p:nth-of-type(1){width:100%; text-align: center; margin-top:19px;}
 
-.statusBody>p:nth-child(2){width:100%; text-align: center; margin-top:72px;}
+.statusBody>p:nth-of-type(2){width:100%; text-align: center; margin-top:72px;}
 
-.statusBody>p:nth-child(3){display:inline; margin-left:96px;}
+.statusBody>p:nth-of-type(3){display:inline; margin-left:88px;}
 
-.statusBody>p:nth-child(4){display:inline; margin-left:105px;}
+.statusBody>p:nth-of-type(4){display:inline; margin-left:105px;}
 
-.refresh{position:absolute; top:15px; right:20px; text-indent: -9999px; width:38px;
-height:32px; background:url(../images/ico_refresh.png) no-repeat;}
+.refresh{position:absolute; top:15px; right:20px; text-indent: -9999px; width:38px; height:32px; background:url(../images/ico_refresh.png) no-repeat;}
 
-.statusBody>ul{margin-top:31px; margin-left:60px;}
+.statusBody>ul{margin-top:20px; margin-left:60px;}
+
+.statusBody>ul>li{margin-top:9px;}
 
 .statusBody span{width:50%; font-weight:bold;}
 
@@ -228,3 +235,15 @@ height:32px; background:url(../images/ico_refresh.png) no-repeat;}
 .miniBan li:last-child{margin-right:0;}
 
 /*-----------------------------------------------------------------------------*/
+
+/* 그래프 */
+
+.chart{
+    position:absolute; 
+    width:160px; height:80px; top:46px; left:83px;
+    box-sizing: border-box;
+    border: 20px solid rgba(0, 170, 249, 1.0);
+    border-bottom: none;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}

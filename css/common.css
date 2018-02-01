@@ -103,7 +103,7 @@ a:hover{text-decoration: none;}
 
 /* HEAD MIDDLE */
 
-.logo{padding:18px 0px 22px 10px; float:left;}
+.logo{padding:18px 0px 18px 10px; float:left;}
 
 #search{float:right; position:relative; margin-top:28px;}
 
@@ -137,7 +137,9 @@ a:hover{text-decoration: none;}
 /*-----------------------------------------------------------------------------*/
 
 /* FOOTER */
-.foot{background:url(../images/bg_foot.png) no-repeat center top; background-size: cover; position:relative; height:400px;}
+.foot{background:url(../images/bg_foot.png) no-repeat center top; background-size: cover; height:380px;}
+
+.foot>div{position:relative;}
 
 .footLogo{margin-top:100px; margin-left:0.83%; float:left;}
 
@@ -145,13 +147,42 @@ a:hover{text-decoration: none;}
 
 .footmenu{margin-top:4px;}
 
-.footmenu>li{float:left;}
+.footmenu>li{float:left; background:url(../images/ico_bar.png) no-repeat 100% 50%; margin-left:8px; padding-right:8px;}
+
+.footmenu>li:last-child{background:none; padding-right:0px;}
 
 .footmenu>li>a, .footText>p{font-size:15px; font-weight:bold; text-align:right;}
 
-.footText>p{margin-top:19px;}
+.footmenu>li>a:hover{color:#ed1c24; text-decoration:underline;}
+
+.footText>p{margin-top:16px;}
 
 .footText>p>span{color:#ed1c24; font-size:23px;}
 
-small{font-weight:bold; top:275px;}
+.social{top:180px; right:0px;}
+
+.social li{float:left; background:url(../images/ico_social.png) no-repeat; width:44px; height:44px; margin-right:10px;}
+
+.social li:nth-child(2){background-position: -51px 0px;}
+
+.social li:nth-child(3){background-position: -102px 0px;}
+
+.social li:nth-child(4){background-position: -153px 0px;}
+
+.social li:nth-child(5){background-position: -205px 0px;}
+
+.social li:last-child{background-position: -255px 0px; margin-right:0px;}
+
+.social li>a{display:block; text-indent:-9999em;}
+
+.footImg{top:140px; left:283px;}
+
+.footImg li{float:left;background:url(../images/footimg.png) no-repeat; width:85px; height:62px;}
+
+.footImg li:nth-child(2){background-position:-85px 0px;}
+
+.footImg li>a{display:block; text-indent:-9999em;}
+
+small{font-weight:bold; top:280px;}
+
 small,.social,.footImg{position:absolute;}
