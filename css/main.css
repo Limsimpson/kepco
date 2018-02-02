@@ -8,7 +8,7 @@
 
 .visual p{position:absolute; font-family:"나눔손글씨 붓","NanumBrush",sans-serif; line-height:65px; font-size:60px; color:#fff; font-weight:bold;}
 
-.visual p:first-child{top:20%; left:2%;}
+.visual p:first-child{top:20%; left:0%; width:100%}
 
 .visual p:last-child{top:5%; right:5%;}
 
@@ -25,8 +25,6 @@
 
 .conBanners>div{float:left;}
 
-.conBanners p{font-weight:bold;}
-
 .banLeft>.upper{margin:0px 20px 20px 30px; background:url(../images/ban_01.png) no-repeat;}
 
 .banMid>.upper{margin:0px 20px 20px 0px; background:url(../images/ban_02.png) no-repeat;}
@@ -41,35 +39,35 @@
 
 .banLeft>.upper>a>p{color:#fff;}
 
-.banLeft>.upper>a>p:first-child{padding:70px 130px 0px 138px; font-size:35px; line-height: 45px;}
+.banLeft>.upper>a>p:first-child{padding:70px 142px 0px 146px; font-size:32px; line-height: 45px;}
 
-.banLeft>.upper>a>p:nth-child(2){padding:30px 0px 0px 81px; font-size:23px;}
+.banLeft>.upper>a>p:nth-child(2){padding:34px 0px 0px 108px; font-size:20px;}
 
-.banLeft>.upper>a>p:nth-child(3){padding:16px 0px 46px 50px;}
+.banLeft>.upper>a>p:nth-child(3){padding:17px 0px 48px 75px;}
 
-.banMid>.upper>a>p:first-child{padding:48px 11px 0px 11px; font-size:23px;}
+.banMid>.upper>a>p:first-child{padding:50px 40px 0px 18px; font-size:20px;}
 
-.banMid>.upper>a>p:last-child{padding:20px 0px 84px 11px;}
+.banMid>.upper>a>p:last-child{padding:21px 0px 88px 18px;}
 
 .banMid>.upper>a>p>span{color:#3c8945;}
 
 .banRight>.upper>a>p{text-align: center;}
 
-.banRight>.upper>a>p:first-child{padding:97px 67px 0px 72px; line-height: 25px;}
+.banRight>.upper>a>p:first-child{padding:97px 76px 0px 81px; line-height: 25px;}
 
-.banRight>.upper>a>p:last-child{padding-bottom:83px; color:#034ea2; font-size:23px; line-height:35px;}
+.banRight>.upper>a>p:last-child{padding-bottom:83px; color:#034ea2; font-size:20px; line-height:35px;}
 
 .banRight>.upper>a>p>span{color:#ed1c24;}
 
-.banLeft>.lower>a>p{padding:55px 192px 45px 56px; font-size:35px; line-height:50px;}
+.banLeft>.lower>a>p{padding:55px 192px 45px 56px; font-size:32px; line-height:50px;}
 
 .banLeft>.lower>a>p>span{color:#ff6804;}
 
-.banMid>.lower>a>p{padding:39px 22px 36px 84px; font-size:23px; line-height:45px; text-align:right;}
+.banMid>.lower>a>p{padding:39px 22px 36px 84px; font-size:20px; line-height:45px; text-align:right;}
 
 .banMid>.lower>a>p>span{color:#9a188f;}
 
-.banRight>.lower>a>p:first-child{padding:41px 162px 0px 27px; font-size:23px; line-height: 30px; color:#ed1c24;}
+.banRight>.lower>a>p:first-child{padding:41px 162px 0px 27px; font-size:20px; line-height: 30px; color:#ed1c24;}
 
 .banRight>.lower>a>p:last-child{padding:10px 62px 29px 27px; line-height: 30px;}
 
@@ -78,7 +76,7 @@
 /*-----------------------------------------------------------------------------*/
 
 /* CONTAINER SERVICE */
-.conService{margin-top:350px; margin-bottom:50px;}
+.conService{margin-top:400px; margin-bottom:100px;}
 
 .conService>.title{font-size:20px; text-align:center;}
 
@@ -90,9 +88,9 @@
 
 .conService>ul>li div{height:95px; background:url(../images/ico_service.png) no-repeat; transition: all 0.2s ease-in-out;}
 
-.conService>ul>li:hover div{ transform: scale(1.1);}
+.conService>ul>li:hover div{transform: scale(1.1);}
 
-.conService>ul>li p{padding-top:10%; text-align: center; font-weight:bold;}
+.conService>ul>li p{padding-top:10%; text-align: center;}
 
 .conService>ul>li:first-child div{background-position:30px 0px;}
 
@@ -104,7 +102,7 @@
 
 .conService>ul>li:nth-child(5) div{background-position:-590px 0px;}
 
-.conService>ul>li:nth-child(6) div{background-position:-750px 0px;}
+.conService>ul>li:nth-child(6) div{background-position:-755px 0px;}
 
 .conService>ul>li:nth-child(7) div{background-position:-905px 0px;}
 
@@ -125,17 +123,17 @@
 
 .board>.title .press,.board>.title .more{border-left:none;}
 
-.board>.title>ul>li>a{display:block; padding:21px 36px 17px 38px; font-weight:bold; font-size:20px;}
+.board>.title>ul>li>a{display:block; padding:21px 36px 15px 38px; font-size:18px; font-weight:bold;}
 
-.board>.title .more>a{padding:16px 15px 15px 15px;}
+.board>.title .more>a{padding:16px 14px 11px 15px;}
 
 .boardBox li{margin-top:25px;}
 
-.boardBox li:last-child{margin-bottom:22px;}
+.boardBox li:first-child{margin-top:35px;}
 
 .boardBox li:hover>a{color:#034ea2; text-decoration:underline;}
 
-.boardBox li>a{float:left; display:block; width:60%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding-left:5%; padding-right:9%; font-weight:bold;}
+.boardBox li>a{float:left; display:block; width:60%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding-left:6.5%; padding-right:9%;}
 
 .pressBody{display:none;}
 
@@ -153,15 +151,13 @@
 
 .statusBody{position:relative;}
 
-.statusBody>p{font-weight:bold;}
-
 .statusBody>p:nth-of-type(1){width:100%; text-align: center; margin-top:19px;}
 
 .statusBody>p:nth-of-type(2){width:100%; text-align: center; margin-top:72px;}
 
 .statusBody>p:nth-of-type(3){display:inline; margin-left:88px;}
 
-.statusBody>p:nth-of-type(4){display:inline; margin-left:105px;}
+.statusBody>p:nth-of-type(4){display:inline; margin-left:110px;}
 
 .refresh{position:absolute; top:15px; right:20px; text-indent: -9999px; width:38px; height:32px; background:url(../images/ico_refresh.png) no-repeat;}
 
@@ -169,11 +165,11 @@
 
 .statusBody>ul>li{margin-top:9px;}
 
-.statusBody span{width:50%; font-weight:bold;}
+.statusBody span{width:50%;}
 
-.statusBody span:first-child{padding-right:56px;}
+.statusBody span:first-child{padding-right:76px;}
 
-.statusBody li:last-child>span:first-child{padding-right:73px;}
+.statusBody li:last-child>span:first-child{padding-right:91px;}
 
 /* 꼭 읽어보세요 */
 .rollingBan{overflow:hidden;}
