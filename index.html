@@ -7,6 +7,7 @@
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
+    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -221,16 +222,16 @@
     <div class="conInfo center clearfix">
         <div class="board">
             <div class="title clearfix">
-                <ul>
-                    <li class="notice selected"><a href="#">공지사항</a></li>
-                    <li class="press"><a href="#">보도자료</a></li>
+                <ul class="tabs">
+                    <li class="selected" rel="tab1"><a href="#">공지사항</a></li>
+                    <li class="press" rel="tab2"><a href="#">보도자료</a></li>
                     <li class="more"><a href="#"><img src="images/ico_more.png" alt="more"></a></li>
                 </ul>
             </div>
 
             <!-- 공지사항 -->
             <div class="boardBox">
-                <div class="noticeBody">
+                <div id="tab1" class="tab_content">
                     <ul class="clearfix">
                         <li><a href="#">&#91;154kV 서천안-탕정 기설송전선로 권원확보사업&#93; 보상계획 공고</a><span>2018&#46;01&#46;29</span></li>
                         <li><a href="#">2018년 노사합동 글로벌 봉사활동</a><span>2018&#46;01&#46;29</span></li>
@@ -242,7 +243,7 @@
                 </div>
 
                 <!-- 보도자료 -->
-                <div class="pressBody">
+                <div id="tab2" class="pressBody tab_content">
                     <ul class="clearfix">
                         <li><a href="#">한전공대&#40;가칭&#41; 설립 글로벌 컨설팅 용역 추진</a><span>2018&#46;01&#46;03</span></li>
                         <li><a href="#">한전&#44; 6군단 상생협력 MOU 체결</a><span>2017&#46;12&#46;27</span></li>
