@@ -7,9 +7,14 @@
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
+    <script type="text/javascript" src="js/lib/slick.min.js"></script>
     <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
 </head>
 
 <body>
@@ -223,9 +228,15 @@
         <div class="board">
             <div class="title clearfix">
                 <ul class="tabs">
-                    <li class="selected" rel="tab1"><a href="#">공지사항</a></li>
-                    <li class="press" rel="tab2"><a href="#">보도자료</a></li>
-                    <li class="more"><a href="#"><img src="images/ico_more.png" alt="more"></a></li>
+                    <li class="notice selected" rel="tab1">
+                        <p>공지사항</p>
+                    </li>
+                    <li class="press" rel="tab2">
+                        <p>보도자료</p>
+                    </li>
+                    <li class="more">
+                        <img src="images/ico_more.png" alt="more">
+                    </li>
                 </ul>
             </div>
 
@@ -249,7 +260,7 @@
                         <li><a href="#">한전&#44; 6군단 상생협력 MOU 체결</a><span>2017&#46;12&#46;27</span></li>
                         <li><a href="#">한전&#44; &#91;ISO 55001 자산경영시스템&#93; 인증 취득</a><span>2017&#46;12&#46;27</span></li>
                         <li><a href="#">한전&#44; 평창 동계올림픽 성공적 개최 적극 지원</a><span>2017&#46;12&#46;22</span></li>
-                        <li><a href="#">한전&#44; 에너지인재 육성 신&#40;新&#41;바람에너지스쿨 성황리 마쳐</a><span>2017&#46;12&#46;21</span></li>
+                        <li><a href="#">한전&#44; 에너지인재 육성 신바람에너지스쿨 성황리 마쳐</a><span>2017&#46;12&#46;21</span></li>
                         <li><a href="#">한전&#44; 제대군인 대상 배전 시공인력 양성 교육시행</a><span>2017&#46;12&#46;20</span></li>
                     </ul>
                 </div>
@@ -285,39 +296,26 @@
                 <h3>꼭 읽어보세요&#33;</h3>
             </div>
             <div class="rollingBan">
-                <ul class="rbanImg">
-                    <li>
-                        <a href="#">공공기관 채용비리를 신고해주세요</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>예산낭비 신고하세요&#33;&#33;&#33;</p>
-                            <p>&lt;신고방법&gt;<br><span>국민신문고</span> www.epeople.go.kr<br><span>신고전화</span> 1577&#45;1242<br><span>타당한 신고 사례금</span> &#40;20만원&#41;</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>부패&middot;비리 익명신고</p>
-                            <p>부정부패는 익명이 보장되는<br><span>레드휘슬</span>로<br>신고하세요.<br>IP추적이 불가능하므로<br>익명성이 보장됩니다.</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>2017년도 국민권익위원회 주관</p>
-                            <p>청렴도 측정<br>결과<br>바로가기</p>
-                        </a>
-                    </li>
-                    <li><a href="#"></a></li>
-                </ul>
-                <ul class="bullet">
-                    <li>
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <a href="#">5</a>
-                    </li>
-                </ul>
+                <div class="rBan rBan1"><a href="#">공공기관 채용비리를 신고해주세요</a></div>
+                <div class="rBan rBan2">
+                    <a href="#">
+                        <p>예산낭비 신고하세요&#33;&#33;&#33;</p>
+                        <p>&lt;신고방법&gt;<br><span>국민신문고</span> www.epeople.go.kr<br><span>신고전화</span> 1577&#45;1242<br><span>타당한 신고 사례금</span> &#40;20만원&#41;</p>
+                    </a>
+                </div>
+                <div class="rBan rBan3">
+                    <a href="#">
+                        <p>부패&middot;비리 익명신고</p>
+                        <p>부정부패는 익명이 보장되는<br><span>레드휘슬</span>로<br>신고하세요.<br>IP추적이 불가능하므로<br>익명성이 보장됩니다.</p>
+                    </a>
+                </div>
+                <div class="rBan rBan4">
+                    <a href="#">
+                        <p>2017년도 국민권익위원회 주관</p>
+                        <p>청렴도 측정<br>결과<br>바로가기</p>
+                    </a>
+                </div>
+                <div class="rBan rBan5"><a href="#"></a></div>
             </div>
         </div>
     </div>
