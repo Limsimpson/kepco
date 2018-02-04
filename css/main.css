@@ -184,19 +184,19 @@
 
 .rollingBan .rBan{width:330px; height:300px; float:left; box-sizing: border-box;}
 
-.rollingBan .rBan p{font-weight:bold;}
+.rollingBan .rBan>a{display:block; width:100%; height:100%;}
 
 .rollingBan .rBan1{background:url(../images/slideban_01.jpg);}
 
-.rollingBan .rBan1>a{display:block; text-indent:-9999px;}
+.rollingBan .rBan1>a{text-indent:-9999px;}
 
 .rollingBan .rBan2{background:url(../images/slideban_02.jpg);}
 
 .rollingBan .rBan2 p{color:white;}
 
-.rollingBan .rBan2 p:first-child{font-size:23px; padding-left:96px; padding-top:63px;}
+.rollingBan .rBan2 p:first-child{font-size:23px; padding-left:96px; padding-top:60px;}
 
-.rollingBan .rBan2 p:last-child{text-align:right; padding-top:40px; padding-right:15px; line-height:35px;}
+.rollingBan .rBan2 p:last-child{text-align:right; padding-top:20px; padding-right:15px; line-height:35px;}
 
 .rollingBan .rBan2 p>span{color:#ff6804;}
 
@@ -204,9 +204,9 @@
 
 .rollingBan .rBan3 p{padding-left:45px;}
 
-.rollingBan .rBan3 p:first-child{font-size:23px; padding-top:58px;}
+.rollingBan .rBan3 p:first-child{font-size:23px; padding-top:48px;}
 
-.rollingBan .rBan3 p:last-child{padding-top:30px; line-height:32px;}
+.rollingBan .rBan3 p:last-child{padding-top:15px; line-height:32px;}
 
 .rollingBan .rBan3 p>span{color:#ed1c24;}
 
@@ -214,7 +214,7 @@
 
 .rollingBan .rBan4 p{padding-left:40px;}
 
-.rollingBan .rBan4 p:first-child{padding-top:70px;}
+.rollingBan .rBan4 p:first-child{padding-top:50px;}
 
 .rollingBan .rBan4 p:last-child{padding-top:19px; font-size:35px; line-height:50px;}
 

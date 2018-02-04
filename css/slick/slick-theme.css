@@ -5,38 +5,22 @@
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 
-/* Icons */
-
-@font-face {
-    font-family: 'slick';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('./fonts/slick.eot');
-    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
-}
-
 /* Arrows */
 
 .slick-prev,
 .slick-next {
     font-size: 0;
     line-height: 0;
-
     position: absolute;
     top: 50%;
-
     display: block;
-
     width: 20px;
     height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-
     cursor: pointer;
-
     color: transparent;
     border: none;
     outline: none;
@@ -66,7 +50,6 @@
 
 .slick-prev:before,
 .slick-next:before {
-    font-family: 'slick';
     font-size: 20px;
     line-height: 1;
 
@@ -120,10 +103,8 @@
 .slick-dots {
     position: absolute;
     bottom: 20px;
-
     display: block;
     width: 100%;
-
     padding: 0;
     margin: 0;
     text-align: center;
@@ -131,29 +112,22 @@
 
 .slick-dots li {
     position: relative;
-
     display: inline-block;
-
     width: 20px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
-
     cursor: pointer;
 }
 
 .slick-dots li button {
     font-size: 0;
     line-height: 0;
-
     display: block;
-
     width: 20px;
     height: 20px;
     padding: 5px;
-
     cursor: pointer;
-
     color: transparent;
     border: 0;
     outline: none;
@@ -165,29 +139,22 @@
     outline: none;
 }
 
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before {
-    opacity: .5;
+.slick-dots li button:hover:before {
+    opacity: 1;
 }
 
 .slick-dots li button:before {
-    font-family: 'slick';
     font-size: 60px;
     line-height: 20px;
-
     position: absolute;
     top: 0;
     left: 0;
-
     width: 20px;
     height: 20px;
-
     content: '•';
     text-align: center;
-
     opacity: .5;
-    color: #ccc;
-
+    color: #6d6d6d;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

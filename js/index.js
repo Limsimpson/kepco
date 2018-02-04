@@ -1,5 +1,13 @@
 $(function () {
 
+    //MAIN 메뉴
+    $("#gnb>li").mouseover(function () {
+        $(this).children(".sub").stop().slideDown(300);
+    })
+    $("#gnb>li").mouseout(function () {
+        $(this).children(".sub").stop().slideUp(300);
+    })
+
     // TAB메뉴
 
     $(".tab_content").hide();
