@@ -183,6 +183,6 @@ a:hover{text-decoration: none;}
 
 .footImg li>a{display:block; text-indent:-9999em;}
 
-small{font-weight:bold; top:280px;}
+small{font-weight:bold; top:280px; right:0px;}
 
 small,.social,.footImg{position:absolute;}

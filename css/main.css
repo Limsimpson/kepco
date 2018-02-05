@@ -21,13 +21,13 @@
 /*-----------------------------------------------------------------------------*/
 
 /* CONTAINER BANNERS */
-.conBanners{position:absolute; top:680px; left:50%; margin-left:-600px;}
+.conBanners{position:absolute; top:680px; left:50%; margin-left:-600px; width:100%;}
 
 .conBanners>div{float:left;}
 
 .banLeft>.upper{margin:0px 20px 20px 30px; background:url(../images/ban_01.png) no-repeat;}
 
-.banMid>.upper{margin:0px 20px 20px 0px; background:url(../images/ban_02.png) no-repeat;}
+.banMid>.upper{margin:0px 20px 20px 0px; background:url(../images/ban_02.png) no-repeat; background-size:cover;}
 
 .banRight>.upper{margin:0px 30px 20px 0px; background:url(../images/ban_03.png) no-repeat;}
 

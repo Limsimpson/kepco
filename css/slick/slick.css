@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Slider */
 
 .slick-slider {
@@ -29,7 +30,6 @@
 
 .slick-list.dragging {
     cursor: pointer;
-    cursor: hand;
 }
 
 .slick-slider .slick-track,
