@@ -1,11 +1,13 @@
 $(function () {
 
     //MAIN 메뉴
-    $("#gnb>li").mouseover(function () {
+    $("#gnb>li").on("mouseover focusin", function () {
         $(this).children(".sub").stop().slideDown(300);
+        $(this).addClass("on");
     })
-    $("#gnb>li").mouseout(function () {
+    $("#gnb>li").on("mouseout focusout", function () {
         $(this).children(".sub").stop().slideUp(300);
+        $(this).removeClass("on");
     })
 
     // TAB메뉴

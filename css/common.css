@@ -130,7 +130,7 @@ a:hover{text-decoration: none;}
 
 /*#gnb>li:hover .sub{display:block;}*/
 
-#gnb>li:hover, .sub>li:hover{background-color:#1a497e;}
+#gnb>li:hover, #gnb>li>a:focus, #gnb>li.on>a, .sub>li:hover, .sub>li>a:focus, .sub>li.on>a{background-color:#1a497e;}
 
 /* HEAD BOTTOM END -----------------------*/
 
