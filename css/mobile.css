@@ -1,0 +1,11 @@
+/* 태블릿 */
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    .headTop,.headMid,.headBot,.center{width:100%;}
+}
+
+/* 모바일 */
+
+@media all and (max-width:767px) {
+    .headTop,.headMid,.headBot,.center{width:100%;}
+}

@@ -21,21 +21,23 @@
 /*-----------------------------------------------------------------------------*/
 
 /* CONTAINER BANNERS */
-.conBanners{position:absolute; top:680px; left:50%; margin-left:-600px; width:100%;}
+.conBanners{position:absolute; top:680px; left:50%; margin-left:-600px;}
 
-.conBanners>div{float:left;}
+.conBanners>div{width:100%;}
+
+.conBanners>div>div{float:left;}
 
 .banLeft>.upper{margin:0px 20px 20px 30px; background:url(../images/ban_01.png) no-repeat;}
 
 .banMid>.upper{margin:0px 20px 20px 0px; background:url(../images/ban_02.png) no-repeat; background-size:cover;}
 
-.banRight>.upper{margin:0px 30px 20px 0px; background:url(../images/ban_03.png) no-repeat;}
+.banRight>.upper{margin:0px 0px 20px 0px; background:url(../images/ban_03.png) no-repeat;}
 
 .banLeft>.lower{margin:0px 20px 0px 30px; background:url(../images/ban_04.png) no-repeat;}
 
 .banMid>.lower{margin-right:20px; background:url(../images/ban_05.png) no-repeat;}
 
-.banRight>.lower{margin-right:30px; background:url(../images/ban_06.png) no-repeat;}
+.banRight>.lower{background:url(../images/ban_06.png) no-repeat;}
 
 .banLeft>.upper>a>p{color:#fff;}
 
