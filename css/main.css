@@ -23,7 +23,7 @@
 /* CONTAINER BANNERS */
 .conBanners{position:absolute; top:680px; left:50%; margin-left:-600px;}
 
-.conBanners>div{width:100%;}
+.conBanners>div{width:100%; min-width:1200px;}
 
 .conBanners>div>div{float:left;}
 

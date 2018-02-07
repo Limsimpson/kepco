@@ -1,7 +1,9 @@
 /* 태블릿 */
 
 @media all and (min-width:768px) and (max-width:1024px) {
-    .headTop,.headMid,.headBot,.center{width:100%;}
+    .headTop,.headMiddle,.headBottom,.center{width:100%;}
+    .left{display:none;}
+    .topMenu>li>a{background-image:none; line-height:40px; padding:0;}
 }
 
 /* 모바일 */
