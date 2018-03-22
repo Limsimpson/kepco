@@ -41,4 +41,31 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false,
     });
+
+    var c = 0;
+
+    //    // 전력수급현황
+    //    function refreshDonut() {
+    //        c++;
+    //        if (c <= 50) {
+    //            var angle = c * 180 / parseFloat(50);
+    //            console.log(angle);
+    //            //            $(".chart-fill").animate({
+    //            //                rotate: angle + "deg"
+    //            //            }, 2000);
+    //            $(".chart-fill").rotate(angle);
+    //        } else {
+    //            clearInterval(t1);
+    //        };
+    //        return false;
+    //    };
+    //
+    //    $(document).ready(function () {
+    //        t1 = setInterval(refreshDonut, 50);
+    //        $(".refresh").on('click', () => {
+    //            c = 0;
+    //            t1 = setInterval(refreshDonut, 50);
+    //            return false;
+    //        });
+    //    }); // 전력수급현황 종료
 });
