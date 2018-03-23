@@ -42,30 +42,34 @@ $(function () {
         pauseOnFocus: false,
     });
 
-    var c = 0;
+    // 전력 수급 현황
 
-    //    // 전력수급현황
-    //    function refreshDonut() {
-    //        c++;
-    //        if (c <= 50) {
-    //            var angle = c * 180 / parseFloat(50);
-    //            console.log(angle);
-    //            //            $(".chart-fill").animate({
-    //            //                rotate: angle + "deg"
-    //            //            }, 2000);
-    //            $(".chart-fill").rotate(angle);
-    //        } else {
-    //            clearInterval(t1);
-    //        };
-    //        return false;
-    //    };
-    //
-    //    $(document).ready(function () {
-    //        t1 = setInterval(refreshDonut, 50);
-    //        $(".refresh").on('click', () => {
-    //            c = 0;
-    //            t1 = setInterval(refreshDonut, 50);
-    //            return false;
-    //        });
-    //    }); // 전력수급현황 종료
+    $(".refresh").click(function () {
+        $(".chart-fill").removeClass("on");
+        setTimeout(chart, 300);
+        return false;
+    });
+
+    function chart() {
+        $(".chart-fill").addClass("on");
+    };
+
+    $(window).scroll(function () {
+        var off1 = $(".conService>.title").offset().top;
+        var sct = $(window).scrollTop();
+        console.log(off1, sct);
+        if (sct >= off1) {
+            $(".chart-fill").addClass("on");
+        };
+    });
+
+    /*
+     var count = 0;
+     count++;
+     if(count%2 == 1){
+        $(".chart-fill").removeClass("on")
+     }else{
+         $(".chart-fill").addClass("on");
+     };
+     */ // 전력수급현황 종료
 });

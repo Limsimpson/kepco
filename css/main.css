@@ -2,25 +2,26 @@
 
 /* VISUAL */
 
-.visual{width:100%; height:700px; background: url(../images/visual_01.png) no-repeat center top; background-size: cover;}
+.visual {width: 100%; height: 700px; background: url(../images/visual_01.png) no-repeat center top; background-size: cover;}
 
-.visual>.center{height:100%; position:relative;}
+.visual>.center {height: 100%; position: relative;}
 
-.visual p{position:absolute; font-family:"나눔손글씨 붓","NanumBrush",sans-serif; line-height:65px; font-size:60px; color:#fff; font-weight:bold;}
+.visual p {position: absolute; font-family: "나눔손글씨 붓","NanumBrush",sans-serif; line-height: 65px; font-size: 60px; color: #fff; font-weight: bold;}
 
-.visual p:first-child{top:20%; left:0%; width:100%}
+.visual p:first-child {top: 20%; left: 0%; width: 100%}
 
-.visual p:last-child{top:5%; right:5%;}
+.visual p:last-child {top: 5%; right: 5%;}
 
-.visual p>.blue{color:#034ea2;}
+.visual p>.blue {color: #034ea2;}
 
-.visual p>.red{color:#ed1c24; font-size:50px; padding-left:5%;}
+.visual p>.red {color: #ed1c24; font-size: 50px; padding-left: 5%;}
 
-.visual p>.black{color:#000; font-size:40px;}
+.visual p>.black {color: #000; font-size: 40px;}
 
 /*-----------------------------------------------------------------------------*/
 
 /* CONTAINER BANNERS */
+
 .conBanners{position:absolute; top:680px; left:50%; margin-left:-600px;}
 
 .conBanners>div{width:100%; min-width:1200px;}
@@ -242,6 +243,9 @@
 
 .chart{
     position:absolute; 
+    top: 40px;
+    left: 50%;
+    margin-left: -80px;
     width:160px; height:80px;
     box-sizing: border-box;
     overflow: hidden;
@@ -274,13 +278,14 @@
     z-index: 1;
     box-sizing: border-box;
     transform-style: preserve-3d;
-    backface-visibility: hidden;
-    
+    backface-visibility: hidden;    
+}
+
+.chart li.on{
     animation-fill-mode: forwards;
-    animation-duration: .8s;
+    animation-duration: 0.8s;
     animation-timing-function: ease-out;
     animation-name: rotate-chart;
-    
 }
 
 @keyframes rotate-chart {
