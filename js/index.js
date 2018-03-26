@@ -55,7 +55,7 @@ $(function () {
     };
 
     $(window).scroll(function () {
-        var off1 = $(".conService>.title").offset().top;
+        var off1 = $(".ban_right>.lower").offset().top;
         var sct = $(window).scrollTop();
         console.log(off1, sct);
         if (sct >= off1) {
