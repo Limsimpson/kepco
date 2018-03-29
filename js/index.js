@@ -15,7 +15,7 @@ $(function () {
     $(".tab_content").hide();
     $(".tab_content:first").show();
 
-    $("ul.tabs li").click(function () {
+    $("ul.tab_title li").click(function () {
         if ($(this).hasClass('more')) {
             // window.open('http://asddasd.com', '_self')
             return;
@@ -31,7 +31,7 @@ $(function () {
 
     // ROLLING BANNER
 
-    $(".rollingBan").slick({
+    $(".rolling_ban").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
