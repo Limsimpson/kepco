@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.local {float: left; width: 17%; padding-top: 400px;}
+
+.local>p {line-height: 2.5; font-size: 1.3em; color: #333; border-bottom:1px solid #ccc; padding-left: 20px; box-sizing: border-box; background: url(../images/home.png) no-repeat 0 45%;}
+
+.local>ul>li {border-bottom: 1px solid #ccc; box-sizing: border-box;}
+
+.local>ul>li>a {display: block; line-height: 2.5; font-size: 1.2em; color: #333;}
+
+.local_sub {display:none; border-top: 1px dashed #ccc; box-sizing: border-box;}
+
+.local_sub>li>a {display: block; line-height: 2; font-size: 1.1em; color: #333; text-indent: 20px;}
+
+.checked>.local_sub {display:block;}
+
+.ci {float: left; width: 83%;}

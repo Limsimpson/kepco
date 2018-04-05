@@ -59,6 +59,8 @@ a:hover{text-decoration: none;}
 
 /* HEADER */
 
+.m_meun {display: none;}
+
 /* HEAD TOP */
 
 .head_top {background-color: #034ea2;}

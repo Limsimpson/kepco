@@ -72,4 +72,12 @@ $(function () {
          $(".chart-fill").addClass("on");
      };
      */ // 전력수급현황 종료
+
+    // 서브페이지 로컬메뉴
+
+    $(".local>ul>li").click(function () {
+        $(this).children(".local_sub").stop().slideDown();
+        $(this).siblings("li").children(".local_sub").stop().slideUp();
+        return false;
+    }); // 서브페이지 로컬메뉴 종료
 });
