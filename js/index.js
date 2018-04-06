@@ -80,4 +80,35 @@ $(function () {
         $(this).siblings("li").children(".local_sub").stop().slideUp();
         return false;
     }); // 서브페이지 로컬메뉴 종료
+
+    // 모바일 메뉴 클릭 이벤트
+
+    $(".m_menu").click(function () {
+        $(".mobile").animate({
+            "right": "0"
+        }, 500);
+    });
+    $(".btn_close").click(function () {
+        $(".mobile").animate({
+            "right": "-100%"
+        }, 500);
+    }); // 모바일 메뉴 클릭 종료
+
+    // 모바일 메뉴 슬라이드
+
+    $("#m_gnb>li>ul").stop().slideUp();
+    $("#m_gnb>li").click(function () {
+        $(this).children("ul").stop().slideToggle();
+        $(this).siblings("li").children("ul").stop().slideUp();
+    }); // 메뉴슬라이드 종료
+
+    // 모바일 메뉴 전환
+    $(".m_button>a").eq(0).click(function () {
+        $(".mobile>ul").eq(1).stop().fadeOut(500);
+        $(".mobile>ul").eq(0).stop().fadeIn(500);
+    });
+    $(".m_button>a").eq(1).click(function () {
+        $(".mobile>ul").eq(0).stop().fadeOut(500);
+        $(".mobile>ul").eq(1).stop().fadeIn(500);
+    });
 });

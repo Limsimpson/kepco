@@ -177,3 +177,7 @@ a:hover{text-decoration: none;}
 small{font-weight:bold; top:260px; right:0px;}
 
 small,.social,.foot_img{position:absolute;}
+
+/* 모바일 메뉴 가리기 */
+
+.mobile, .m_menu {display: none;}
