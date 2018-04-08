@@ -15,3 +15,22 @@
 .checked>.local_sub {display:block;}
 
 .ci {float: left; width: 83%;}
+
+.ci>img {width: 100%;}
+
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    
+    .local {padding-top: 30vh;}
+}
+
+@media all and (max-width:767px) {
+        
+    .local {padding-top: 30%;}
+    
+    .local>p {font-size: 2.5vw;}
+        
+    .local>ul>li>a {font-size: 2.5vw;}
+    
+    .local_sub>li>a {font-size: 2.5vw;}
+}

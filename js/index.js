@@ -111,4 +111,10 @@ $(function () {
         $(".mobile>ul").eq(0).stop().fadeOut(500);
         $(".mobile>ul").eq(1).stop().fadeIn(500);
     });
+
+    // 배너 손으로 밀면 이동하기
+
+    $(".swipe").bind('swipeleft', function (event) {
+        alert("hello");
+    });
 });
