@@ -60,6 +60,8 @@
     
     .m_service>li>a {display: block; padding-top: 95px; text-align: center;}
     
+    .visual {height: 40vh; margin-bottom: 20px;}
+    
     .visual>div>p {font-size: 2.2em;}
     
     .visual p:last-child {right: 0%;}
@@ -149,11 +151,13 @@
     
     .m_service>li>a {display: block; padding-top: 95px; text-align: center;}
     
-    .visual>div>p {font-size: 7vw;}
+    .visual {height: 30vh; margin-bottom: 10px;}
+    
+    .visual>div>p {font-size: 6vw; text-align: center;}
     
     .visual p>.red {padding-left: 0%;}
     
-    .visual p:last-child {right: 0%;}
+    .visual p:last-child {display: none;}
     
     .con_banner {display: none; top: 400px;}
     
